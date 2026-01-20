@@ -1,0 +1,6 @@
+[tools]
+air = "latest"
+go = "latest"
+
+[env]
+GOPATH = "/var/home/pratz/.local/share/go"

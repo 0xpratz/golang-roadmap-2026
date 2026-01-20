@@ -1,0 +1,357 @@
+
+/*
+Theme: Vague
+Author: Adapted from vague.nvim by vague2k
+Description: A cool, dark, low contrast colorscheme for Obsidian. Pastel yet vivid, like a fleeting memory...
+Version: 1.0.0
+*/
+
+/* Vague Color Palette */
+.theme-dark {
+  /* Background colors */
+  --bg: #18191a;
+  --bg-alt: #1f2223;
+  --bg-highlight: #2a2b2c;
+  --bg-inactive: #1a1b1c;
+  
+  /* Foreground colors */
+  --fg: #cdcdcd;
+  --fg-dim: #a0a0a0;
+  --fg-dimmer: #6e6e6e;
+  
+  /* Accent colors - pastel and muted */
+  --red: #d2788c;
+  --orange: #e6a56a;
+  --yellow: #d8c79a;
+  --green: #87af87;
+  --cyan: #7ab0a8;
+  --blue: #8ba4b5;
+  --purple: #a78ab0;
+  --magenta: #b89bb0;
+  
+  /* UI specific */
+  --accent: #8ba4b5;
+  --accent-muted: #6a7a85;
+  
+  /* Base Obsidian variables */
+  --background-primary: var(--bg);
+  --background-primary-alt: var(--bg-alt);
+  --background-secondary: var(--bg-alt);
+  --background-secondary-alt: var(--bg);
+  --background-modifier-border: var(--bg-highlight);
+  --background-modifier-form-field: var(--bg-alt);
+  --background-modifier-form-field-highlighted: var(--bg-highlight);
+  --background-modifier-box-shadow: rgba(0, 0, 0, 0.3);
+  --background-modifier-success: var(--green);
+  --background-modifier-error: var(--red);
+  --background-modifier-error-rgb: 210, 120, 140;
+  --background-modifier-error-hover: var(--red);
+  --background-modifier-cover: rgba(24, 25, 26, 0.8);
+  
+  /* Text colors */
+  --text-normal: var(--fg);
+  --text-muted: var(--fg-dim);
+  --text-faint: var(--fg-dimmer);
+  --text-error: var(--red);
+  --text-accent: var(--accent);
+  --text-accent-hover: var(--blue);
+  --text-on-accent: var(--bg);
+  
+  /* Interactive elements */
+  --interactive-normal: var(--bg-highlight);
+  --interactive-hover: var(--bg-highlight);
+  --interactive-accent: var(--accent);
+  --interactive-accent-hover: var(--blue);
+  --interactive-success: var(--green);
+  
+  /* Scrollbars */
+  --scrollbar-bg: var(--bg);
+  --scrollbar-thumb-bg: var(--bg-highlight);
+  --scrollbar-active-thumb-bg: var(--accent-muted);
+  
+  /* Editor */
+  --code-normal: var(--cyan);
+  --code-background: var(--bg-alt);
+  --code-comment: var(--fg-dimmer);
+  
+  /* Links */
+  --link-color: var(--blue);
+  --link-color-hover: var(--cyan);
+  --link-external-color: var(--purple);
+  --link-unresolved-color: var(--fg-dimmer);
+  
+  /* Tags */
+  --tag-color: var(--purple);
+  --tag-background: var(--bg-highlight);
+  
+  /* Borders */
+  --divider-color: var(--bg-highlight);
+  
+  /* Tables */
+  --table-header-background: var(--bg-highlight);
+  --table-row-even-background: var(--bg-alt);
+  --table-row-odd-background: var(--bg);
+  
+  /* Syntax highlighting */
+  --color-red: var(--red);
+  --color-orange: var(--orange);
+  --color-yellow: var(--yellow);
+  --color-green: var(--green);
+  --color-cyan: var(--cyan);
+  --color-blue: var(--blue);
+  --color-purple: var(--purple);
+  --color-pink: var(--magenta);
+}
+
+/* Improved readability */
+body {
+  --font-text-theme: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-monospace-theme: "JetBrains Mono", "SF Mono", Monaco, "Cascadia Code", "Roboto Mono", Consolas, monospace;
+}
+
+/* Headings with distinct pastel colors */
+.cm-header-1,
+.markdown-preview-view h1 {
+  color: var(--blue) !important;
+  font-weight: 700;
+}
+
+.cm-header-2,
+.markdown-preview-view h2 {
+  color: var(--purple) !important;
+  font-weight: 600;
+}
+
+.cm-header-3,
+.markdown-preview-view h3 {
+  color: var(--cyan) !important;
+  font-weight: 600;
+}
+
+.cm-header-4,
+.markdown-preview-view h4 {
+  color: var(--green) !important;
+  font-weight: 500;
+}
+
+.cm-header-5,
+.markdown-preview-view h5 {
+  color: var(--yellow) !important;
+  font-weight: 500;
+}
+
+.cm-header-6,
+.markdown-preview-view h6 {
+  color: var(--orange) !important;
+  font-weight: 500;
+}
+
+/* Emphasis */
+.cm-em,
+.markdown-preview-view em {
+  color: var(--yellow);
+  font-style: italic;
+}
+
+.cm-strong,
+.markdown-preview-view strong {
+  color: var(--orange);
+  font-weight: bold;
+}
+
+/* Code */
+.cm-inline-code,
+code {
+  color: var(--cyan);
+  background-color: var(--bg-highlight);
+  padding: 2px 4px;
+  border-radius: 3px;
+}
+
+/* Code blocks */
+.markdown-preview-view pre code,
+.cm-s-obsidian pre.HyperMD-codeblock {
+  color: var(--fg);
+  background-color: var(--bg-alt);
+}
+
+/* Links */
+.cm-link,
+.cm-url,
+.markdown-preview-view a {
+  color: var(--blue);
+}
+
+.external-link {
+  color: var(--purple);
+}
+
+/* Lists */
+.cm-formatting-list,
+.markdown-preview-view ul,
+.markdown-preview-view ol {
+  color: var(--fg);
+}
+
+/* Blockquotes */
+.cm-quote,
+.markdown-preview-view blockquote {
+  color: var(--fg-dim);
+  border-left: 3px solid var(--accent-muted);
+}
+
+/* Tags */
+.cm-tag,
+.tag {
+  color: var(--purple);
+  background-color: var(--bg-highlight);
+  padding: 2px 6px;
+  border-radius: 3px;
+}
+
+/* Checkboxes */
+.markdown-preview-view .task-list-item-checkbox {
+  filter: hue-rotate(180deg) saturate(0.7);
+}
+
+/* Highlights */
+.cm-highlight,
+mark {
+  background-color: rgba(216, 199, 154, 0.3);
+  color: var(--yellow);
+}
+
+/* Selection */
+::selection {
+  background-color: var(--bg-highlight);
+}
+
+/* Active line */
+.cm-active {
+  background-color: var(--bg-alt);
+}
+
+/* Cursor */
+.cm-cursor {
+  border-left-color: var(--accent);
+}
+
+/* File explorer */
+.nav-file-title,
+.nav-folder-title {
+  color: var(--fg);
+}
+
+.nav-file-title:hover,
+.nav-folder-title:hover {
+  background-color: var(--bg-highlight);
+}
+
+.nav-file-title.is-active {
+  background-color: var(--bg-highlight);
+  color: var(--accent);
+}
+
+/* Status bar */
+.status-bar {
+  background-color: var(--bg-alt);
+  border-top: 1px solid var(--bg-highlight);
+}
+
+/* Title bar */
+.titlebar {
+  background-color: var(--bg);
+}
+
+/* Modals and popovers */
+.modal,
+.menu {
+  background-color: var(--bg-alt);
+  border: 1px solid var(--bg-highlight);
+}
+
+/* Buttons */
+button {
+  background-color: var(--bg-highlight);
+  color: var(--fg);
+  border: none;
+}
+
+button:hover {
+  background-color: var(--accent-muted);
+}
+
+button.mod-cta {
+  background-color: var(--accent);
+  color: var(--bg);
+}
+
+button.mod-cta:hover {
+  background-color: var(--blue);
+}
+
+/* Input fields */
+input[type="text"],
+input[type="search"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+textarea {
+  background-color: var(--bg-alt);
+  color: var(--fg);
+  border: 1px solid var(--bg-highlight);
+}
+
+/* Tabs */
+.workspace-tab-header {
+  background-color: var(--bg);
+}
+
+.workspace-tab-header.is-active {
+  background-color: var(--bg-alt);
+  border-bottom: 2px solid var(--accent);
+}
+
+/* Graph view */
+.graph-view.color-fill-tag {
+  color: var(--purple);
+}
+
+.graph-view.color-fill-attachment {
+  color: var(--orange);
+}
+
+.graph-view.color-fill-unresolved {
+  color: var(--fg-dimmer);
+}
+
+/* Callouts */
+.callout {
+  background-color: var(--bg-alt);
+  border-left: 3px solid var(--accent);
+}
+
+.callout[data-callout="info"] {
+  border-left-color: var(--blue);
+}
+
+.callout[data-callout="warning"] {
+  border-left-color: var(--yellow);
+}
+
+.callout[data-callout="error"],
+.callout[data-callout="danger"] {
+  border-left-color: var(--red);
+}
+
+.callout[data-callout="success"] {
+  border-left-color: var(--green);
+}
+
+.callout[data-callout="question"] {
+  border-left-color: var(--cyan);
+}
+
+.callout[data-callout="tip"] {
+  border-left-color: var(--purple);
+}

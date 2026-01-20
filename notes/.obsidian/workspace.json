@@ -1,0 +1,207 @@
+{
+  "main": {
+    "id": "a54b425e4e75a5b1",
+    "type": "split",
+    "children": [
+      {
+        "id": "5761ddd779bf450d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "afaa0c4b64f77dc5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Go Faster/Go Faster.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Go Faster"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8feadeb865f0ceb3",
+    "type": "split",
+    "children": [
+      {
+        "id": "e6043dabbef14cea",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2837f77a977d8aea",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "80e48f567d88fe01",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "7e2e864e9328d1fa",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "b13ae06e5b6c67cd",
+    "type": "split",
+    "children": [
+      {
+        "id": "19b312023b8d3934",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8e2b19b76bb73c7a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Go Faster/Go Faster.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Go Faster"
+            }
+          },
+          {
+            "id": "f5fb78e8d2db520c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Go Faster/Go Faster.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Go Faster"
+            }
+          },
+          {
+            "id": "910e1349b56d981c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "ad8149fc18ddb022",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "6f21e1ad9df92c7f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Go Faster/Go Faster.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Go Faster"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "afaa0c4b64f77dc5",
+  "lastOpenFiles": [
+    "Golang Roadmap 2026.md",
+    "Go Faster/Go Faster.md",
+    "Writing an Interpreter in Go/Writing an Interpreter in Go.md",
+    "Powerful Command-Line Application in Go/Powerful Command-Line Application in Go.md",
+    "Writing a Compiler in Go/Writing a Compiler in Go.md",
+    "Let's Go Further/Let's Go Further.md",
+    "Let's Go/Let's Go.md",
+    "Learn Data Structures and Algorithms/Learn Data Structures and Algorithms.md",
+    "Learn Data Structures and Algorithms",
+    "Writing an Interpreter in Go",
+    "Writing a Compiler in Go",
+    "Let's Go Further",
+    "Let's Go",
+    "Untitled/Untitled",
+    "Powerful Command-Line Application in Go",
+    "Go Faster",
+    "create a link.md"
+  ]
+}
